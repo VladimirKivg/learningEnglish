@@ -6,10 +6,9 @@ import java.util.Scanner;
 
 public class WraitFile {
 static ArrayList<String> lessonFile2(){
-    ArrayList<String> lessonFile=new ArrayList<String>();
+    ArrayList<String> lessonFile=new ArrayList();
 
-     // public static void filfil(){
-      //  String fi = "";
+
        try {
            Scanner filt=new Scanner(new File("lesson.txt"));
 
@@ -17,7 +16,7 @@ static ArrayList<String> lessonFile2(){
 
                String  fi= filt.nextLine();
                lessonFile.add(fi);
-           }
+           }filt.close();
        } catch (FileNotFoundException e) {
            e.printStackTrace();
        }
