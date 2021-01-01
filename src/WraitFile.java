@@ -7,9 +7,7 @@ import java.util.Scanner;
 public class WraitFile {
 static ArrayList<String> lessonFile2(){
     ArrayList<String> lessonFile=new ArrayList();
-
-
-       try {
+    try {
            Scanner filt=new Scanner(new File("lesson.txt"));
 
            while (filt.hasNextLine()){
@@ -22,5 +20,15 @@ static ArrayList<String> lessonFile2(){
        }
     return lessonFile;
 }
+    static ArrayList<GetSet>learEnglRussLish(){
+        ArrayList<GetSet> eng=new ArrayList<>();
+        for (String s:lessonFile2()){
+            String[] s2=s.split("\\-",2);
+            GetSet getSet = new GetSet();
+            getSet.setEnglish(s2[0]);
+            getSet.setRusian(s2[1]);
+            eng.add(getSet);
+        }return eng;
+    }
 
     }
