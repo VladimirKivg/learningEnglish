@@ -7,9 +7,14 @@ public class Learning {
 
 
     public static void zadanie1(){
-    for (String s : WraitFile.lessonFile2()){
-    System.out.println(s);
-    sc.nextLine();}
+        WraitFile.lessonFile2().stream().forEach((String s)->{
+            System.out.println(s);
+            sc.nextLine();
+        });
+//    for (String s : WraitFile.lessonFile2()){
+//    System.out.println(s);
+//    sc.nextLine();}
+
     for (int i = 0; i< WraitFile.learEnglRussLish().size(); i++){
         System.out.println(WraitFile.learEnglRussLish().get(i).getEnglish());
         System.out.println("правельный ответ:");
