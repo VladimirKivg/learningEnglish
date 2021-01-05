@@ -15,6 +15,7 @@ public class Learning {
 //    System.out.println(s);
 //    sc.nextLine();}
 
+        // с таким раскладом пока не особо вижу смысел в лямдах, нужно будет еще раз по ним пройтись
         // x - как счетчик не считает, незнаю как правильно зделать, в лямде это по другому работает
 //WraitFile.learEnglRussLish().stream().forEach((GetSet ii)->{
 //    int y=0;y++;
