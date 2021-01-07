@@ -29,11 +29,6 @@ public class Learning {
 //    String ss= sc.nextLine();
 //    while (!ss.equals(String.valueOf(y))){
 //        System.out.println("ответ не верный ");
-//        System.out.println("попробуйте еще раз:");
-//        ss=sc.nextLine();
-//    }
-//    System.out.println("ты молодец");
-//});
     for (int i = 0; i< WraitFile.learEnglRussLish().size(); i++){
         System.out.println(WraitFile.learEnglRussLish().get(i).getEnglish());
         System.out.println("правельный ответ:");
