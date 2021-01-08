@@ -21,8 +21,6 @@ public class Learning {
 //    int y=0;y++;
 //    System.out.println(ii.getRusian());
 //    System.out.println("правельный ответ");
-//    WraitFile.learEnglRussLish().stream().forEach((GetSet iu) ->  {
-
 
     for (int i = 0; i< WraitFile.learEnglRussLish().size(); i++){
         System.out.println(WraitFile.learEnglRussLish().get(i).getEnglish());
