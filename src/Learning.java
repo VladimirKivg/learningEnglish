@@ -22,8 +22,7 @@ public class Learning {
 //    System.out.println(ii.getRusian());
 //    System.out.println("правельный ответ");
 //    WraitFile.learEnglRussLish().stream().forEach((GetSet iu) ->  {
-//        int x=0;
-//        System.out.println(x+" "+iu.getEnglish());
+
 
     for (int i = 0; i< WraitFile.learEnglRussLish().size(); i++){
         System.out.println(WraitFile.learEnglRussLish().get(i).getEnglish());
