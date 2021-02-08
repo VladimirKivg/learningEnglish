@@ -28,7 +28,7 @@ public class Learning {
             int x = 0;
             for (GetSet s : WraitFile.learEnglRussLish()) {
                 x++;
-                System.out.println(x + ":" + s.getEnglish());
+                System.out.println(x + ":" + s.getRusian());
             }
             String ss = sc.nextLine();
             String z = String.valueOf(i + 1);
