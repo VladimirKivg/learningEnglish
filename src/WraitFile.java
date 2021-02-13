@@ -22,7 +22,6 @@ public class WraitFile {
         return lessonFile;
     }
 
-
     static ArrayList<GetSet> learEnglRussLish() {
         ArrayList<GetSet> eng = new ArrayList<>();
         for (String s : lessonFile2()) {
