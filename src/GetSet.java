@@ -2,6 +2,7 @@ public class GetSet {
     String rusian;
     String english;
 
+
     @Override
     public String toString() {
         return "GetSet{" +
