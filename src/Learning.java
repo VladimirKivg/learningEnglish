@@ -5,6 +5,7 @@ public class Learning {
     static Scanner sc = new Scanner(System.in);
 
 
+
     public static void zadanie1() {
         WraitFile.lessonFile2().stream().forEach((String s) -> {
             System.out.println(s);
